@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="Transparent"
+             xmlns:Renderer ="clr-namespace:GCS_CPC_EMEC.Renderer"
+             x:Class="GCS_CPC_EMEC.Dialog.MenuGCS">
+    <Frame CornerRadius="15"
+           OutlineColor="Black"
+           HorizontalOptions="End"           
+           WidthRequest="100"       
+           VerticalOptions="Start"
+           >
+        <StackLayout>
+            <Renderer:GradientButton
+                     Grid.Column="2"
+                     x:Name="btnDocRF" 
+                     OnTouchesBegan="btnDocRF_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Đã GCS"
+                     TextColor="White" />
+            <Renderer:GradientButton
+                     Grid.Column="2"
+                     x:Name="btnChuaDoc" 
+                     OnTouchesBegan="btnChuaDoc_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Chưa GCS"
+                     TextColor="White" />
+            <Renderer:GradientButton
+                     Grid.Column="2"
+                     x:Name="btnDocChuaXong" 
+                     OnTouchesBegan="btnDocChuaXong_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Chưa GCS Xong"
+                     TextColor="White" />
+            <Renderer:GradientButton
+                     Grid.Column="2"
+                     x:Name="btntatca" 
+                     OnTouchesBegan="btntatca_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Tất Cả"
+                     TextColor="White" />
+            
+        </StackLayout>
+
+    </Frame>
+</pages:PopupPage>

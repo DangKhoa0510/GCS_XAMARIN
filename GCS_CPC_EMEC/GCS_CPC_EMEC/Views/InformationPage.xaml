@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"            
+             xmlns:Render="clr-namespace:GCS_CPC_EMEC.Renderer"
+             mc:Ignorable="d"
+             Title="{Binding Title}" 
+             x:Name="Root"
+             x:Class="GCS_CPC_EMEC.Views.InformationPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="btnFillter" IconImageSource="filter.png" Clicked="btnFillter_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <StackLayout>
+            <SearchBar x:Name="txtSoCongTo" Placeholder="Nhập số công tơ hoạc tên KH tìm kiếm" HeightRequest="30" TextChanged="txtSoCongTo_TextChanged"></SearchBar>
+            <ScrollView Orientation="Horizontal">
+
+                <StackLayout>
+
+                    <Grid HorizontalOptions="FillAndExpand" BackgroundColor="#007261"  Padding="5,5,5,0" HeightRequest="40">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="80"></ColumnDefinition>
+                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition Width="140"></ColumnDefinition> 
+                            <ColumnDefinition Width="140"></ColumnDefinition>
+                            <ColumnDefinition Width="80"></ColumnDefinition>
+                            
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="TRỤ" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="1" Text="STT" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="2" Text="SERY CTO" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="3" Text="CS_MỚI" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="4" Text="SL_MỚI" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="5" Text="MÃ KHÁCH HÀNG" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>                        
+                        <Label Grid.Column="6" Text="MÃ ĐIỂM ĐO" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                        <Label Grid.Column="7" Text="LOẠI CTƠ" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                       
+                    </Grid>
+
+                    <ListView x:Name="InformationListView"
+                ItemsSource="{Binding Items}"
+                ItemSelected="InformationListView_ItemSelected"              
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="True"                         
+                HorizontalOptions="FillAndExpand"
+                CachingStrategy="RecycleElement"          
+               
+               >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <Grid HorizontalOptions="FillAndExpand">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                                <ColumnDefinition Width="50"></ColumnDefinition>
+                                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                                <ColumnDefinition Width="60"></ColumnDefinition>
+                                                <ColumnDefinition Width="140"></ColumnDefinition>                                                
+                                               
+                                                <ColumnDefinition Width="140"></ColumnDefinition>
+                                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                               
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <BoxView Grid.Column="0" Grid.ColumnSpan="10" Grid.RowSpan="2">
+                                                <BoxView.Triggers>
+                                                    <DataTrigger TargetType="BoxView" Binding="{Binding STATUS}" Value="1" >
+                                                        <Setter Property="BackgroundColor" Value="#007362" ></Setter>
+                                                        <Setter Property="Opacity" Value="0.5" ></Setter>                                                        
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="BoxView" Binding="{Binding STATUS}" Value="0" >
+                                                        <Setter Property="BackgroundColor" Value="LightPink" ></Setter>
+                                                        <Setter Property="Opacity" Value="0.5" ></Setter>
+                                                    </DataTrigger>
+                                                </BoxView.Triggers>
+                                            </BoxView>
+                                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding MA_COT}" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding MA_GC}" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="2" Text="{Binding SERY_CTO}" FontAttributes="Bold" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="3" Text="{Binding CS_MOI}" HorizontalTextAlignment="End" TextColor="Black" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="4" Text="{Binding SL_MOI}" HorizontalTextAlignment="End" TextColor="Black" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="5" Text="{Binding MA_KHANG}"  TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="1" Grid.ColumnSpan="10" Grid.Column="0" Text="{Binding TEN_KHANG}" TextColor="Black" HorizontalOptions="StartAndExpand" 
+                                                   Padding="10,0,0,5"></Label>
+                                            <Label Grid.Row="0" Grid.Column="6" Text="{Binding MA_DDO}" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                            <Label Grid.Row="0" Grid.Column="7" Text="{Binding METER_TYPE}" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                           
+                                            <BoxView HeightRequest="1" Opacity="0.1" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="Black" Grid.ColumnSpan="9"></BoxView>
+                                        </Grid>
+
+                                    </ViewCell.View>
+
+
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
+            </ScrollView>
+            <StackLayout VerticalOptions="End" Margin="0,0,0,5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                <Grid Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                </Grid>
+                <Label Grid.Column="0" Text="Bluetooth :" VerticalOptions="CenterAndExpand"/>
+                <ImageButton Grid.Column="1" x:Name="imgConnect" Source="offline.png"  BackgroundColor="White" Clicked="imgConnect_Clicked" Aspect="Fill"/>
+                <Render:GradientButton
+                     Grid.Column="2"
+                     x:Name="btnDocRF" 
+                     OnTouchesBegan="btnDocRF_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Đọc RF"
+                     TextColor="White" />
+                <Render:GradientButton
+                      Grid.Column="3"
+                     x:Name="btnNhap"                      
+                     OnTouchesBegan="btnNhap_OnTouchesBegan"
+                     BorderRadius="45"     
+                     StartColor="#007362"
+                     EndColor="#007310" 
+                     HorizontalOptions="FillAndExpand"            
+                     Text="Nhập"
+                     TextColor="White" />
+
+                
+            </StackLayout>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

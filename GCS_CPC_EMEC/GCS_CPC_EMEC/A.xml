@@ -1,0 +1,1415 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA_NVGCS" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_KHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_DDO" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_DVIQLY" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_GC" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_QUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_TRAM" type="xs:string" minOccurs="0" />
+                <xs:element name="BOCSO_ID" type="xs:long" minOccurs="0" />
+                <xs:element name="LOAI_BCS" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI_CS" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN_KHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="DIA_CHI" type="xs:string" minOccurs="0" />
+                <xs:element name="MA_NN" type="xs:string" minOccurs="0" />
+                <xs:element name="SO_HO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA_CTO" type="xs:string" minOccurs="0" />
+                <xs:element name="SERY_CTO" type="xs:string" minOccurs="0" />
+                <xs:element name="HSN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_CU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TTR_CU" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_CU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_TTIEP" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_CU" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CS_MOI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TTR_MOI" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_MOI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHUOI_GIA" type="xs:string" minOccurs="0" />
+                <xs:element name="KY" type="xs:int" minOccurs="0" />
+                <xs:element name="THANG" type="xs:int" minOccurs="0" />
+                <xs:element name="NAM" type="xs:int" minOccurs="0" />
+                <xs:element name="NGAY_MOI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGUOI_GCS" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_THAO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KIMUA_CSPK" type="xs:short" minOccurs="0" />
+                <xs:element name="MA_COT" type="xs:string" minOccurs="0" />
+                <xs:element name="SLUONG_1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLUONG_2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLUONG_3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SO_HOM" type="xs:string" minOccurs="0" />
+                <xs:element name="PMAX" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY_PMAX" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="X" type="xs:string" minOccurs="0" />
+                <xs:element name="Y" type="xs:string" minOccurs="0" />
+                <xs:element name="Z" type="xs:string" minOccurs="0" />
+                <xs:element name="SL_TONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="METER_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCRF" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLBT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA_GC_MOI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY_GIO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SECURITY" type="xs:int" minOccurs="0" />
+                <xs:element name="SECURITY_TEXT" type="xs:string" minOccurs="0" />
+                <xs:element name="TAMPER" type="xs:int" minOccurs="0" />
+                <xs:element name="TAMPER_TEXT" type="xs:string" minOccurs="0" />
+                <xs:element name="HIST" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000221059</MA_KHANG>
+    <MA_DDO>PQ02000221059001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0001</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9001077424</BOCSO_ID>
+    <LOAI_BCS>BT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Công ty Cổ phần Bất động sản Hà Quang</TEN_KHANG>
+    <DIA_CHI>STH 28A.12, Đường số 13  KĐT mới Lê Hồng Phong II, P.Phước Hải, TP. Nha Trang, T.Khánh Hòa, VN</DIA_CHI>
+    <MA_NN />
+    <SO_HO>0</SO_HO>
+    <MA_CTO>D52201718997770</MA_CTO>
+    <SERY_CTO>18997770</SERY_CTO>
+    <HSN>100.00</HSN>
+    <CS_CU>176.320</CS_CU>
+    <TTR_CU />
+    <SL_CU>3690</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>219.645</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>4332</SL_MOI>
+    <CHUOI_GIA> BT: 100%*1685-SXBT-A; CD: 100%*3076-SXBT-A; TD: 100%*1100-SXBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>1</KIMUA_CSPK>
+    <MA_COT>T530</MA_COT>
+    <SLUONG_1>3690</SLUONG_1>
+    <SLUONG_2>3464</SLUONG_2>
+    <SLUONG_3>1478</SLUONG_3>
+    <SO_HOM />
+    <PMAX>22629</PMAX>
+    <NGAY_PMAX>2019-07-02T20:24:00-07:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>4332</SL_TONG>
+    <METER_TYPE>DT03MRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0001</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:50:09-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000221059</MA_KHANG>
+    <MA_DDO>PQ02000221059001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0001</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9001077425</BOCSO_ID>
+    <LOAI_BCS>CD</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Công ty Cổ phần Bất động sản Hà Quang</TEN_KHANG>
+    <DIA_CHI>STH 28A.12, Đường số 13  KĐT mới Lê Hồng Phong II, P.Phước Hải, TP. Nha Trang, T.Khánh Hòa, VN</DIA_CHI>
+    <MA_NN />
+    <SO_HO>0</SO_HO>
+    <MA_CTO>D52201718997770</MA_CTO>
+    <SERY_CTO>18997770</SERY_CTO>
+    <HSN>100.00</HSN>
+    <CS_CU>73.098</CS_CU>
+    <TTR_CU />
+    <SL_CU>1343</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>88.528</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>1543</SL_MOI>
+    <CHUOI_GIA> BT: 100%*1685-SXBT-A; CD: 100%*3076-SXBT-A; TD: 100%*1100-SXBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>1</KIMUA_CSPK>
+    <MA_COT>T530</MA_COT>
+    <SLUONG_1>1343</SLUONG_1>
+    <SLUONG_2>1240</SLUONG_2>
+    <SLUONG_3>627</SLUONG_3>
+    <SO_HOM />
+    <PMAX>21347</PMAX>
+    <NGAY_PMAX>2019-07-05T19:34:00-07:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>1543</SL_TONG>
+    <METER_TYPE>DT03MRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0001</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:50:10-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000221059</MA_KHANG>
+    <MA_DDO>PQ02000221059001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0001</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9001077426</BOCSO_ID>
+    <LOAI_BCS>TD</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Công ty Cổ phần Bất động sản Hà Quang</TEN_KHANG>
+    <DIA_CHI>STH 28A.12, Đường số 13  KĐT mới Lê Hồng Phong II, P.Phước Hải, TP. Nha Trang, T.Khánh Hòa, VN</DIA_CHI>
+    <MA_NN />
+    <SO_HO>0</SO_HO>
+    <MA_CTO>D52201718997770</MA_CTO>
+    <SERY_CTO>18997770</SERY_CTO>
+    <HSN>100.00</HSN>
+    <CS_CU>132.560</CS_CU>
+    <TTR_CU />
+    <SL_CU>2364</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>159.104</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>2654</SL_MOI>
+    <CHUOI_GIA> BT: 100%*1685-SXBT-A; CD: 100%*3076-SXBT-A; TD: 100%*1100-SXBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>1</KIMUA_CSPK>
+    <MA_COT>T530</MA_COT>
+    <SLUONG_1>2364</SLUONG_1>
+    <SLUONG_2>2321</SLUONG_2>
+    <SLUONG_3>971</SLUONG_3>
+    <SO_HOM />
+    <PMAX>22697</PMAX>
+    <NGAY_PMAX>2019-07-05T22:02:00-07:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>2654</SL_TONG>
+    <METER_TYPE>DT03MRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0001</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:50:11-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000221059</MA_KHANG>
+    <MA_DDO>PQ02000221059001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0001</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9001077427</BOCSO_ID>
+    <LOAI_BCS>VC</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Công ty Cổ phần Bất động sản Hà Quang</TEN_KHANG>
+    <DIA_CHI>STH 28A.12, Đường số 13  KĐT mới Lê Hồng Phong II, P.Phước Hải, TP. Nha Trang, T.Khánh Hòa, VN</DIA_CHI>
+    <MA_NN />
+    <SO_HO>0</SO_HO>
+    <MA_CTO>D52201718997770</MA_CTO>
+    <SERY_CTO>18997770</SERY_CTO>
+    <HSN>100.00</HSN>
+    <CS_CU>21.033</CS_CU>
+    <TTR_CU />
+    <SL_CU>0</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>21.033</CS_MOI>
+    <TTR_MOI>Q</TTR_MOI>
+    <SL_MOI>9999</SL_MOI>
+    <CHUOI_GIA> BT: 100%*1685-SXBT-A; CD: 100%*3076-SXBT-A; TD: 100%*1100-SXBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>1</KIMUA_CSPK>
+    <MA_COT>T530</MA_COT>
+    <SLUONG_1>0</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>9999</SL_TONG>
+    <METER_TYPE>DT03MRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0001</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:50:13-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000221288</MA_KHANG>
+    <MA_DDO>PQ02000221288001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0002</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9900362957</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Công ty Cổ phần Bất động sản Hà Quang</TEN_KHANG>
+    <DIA_CHI>STH 28A.12, Đường số 13  KĐT mới Lê Hồng Phong II, P.Phước Hải, TP. Nha Trang, T.Khánh Hòa, VN</DIA_CHI>
+    <MA_NN />
+    <SO_HO>0</SO_HO>
+    <MA_CTO>D54201616905768</MA_CTO>
+    <SERY_CTO>16905768</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>14246.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>1459</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>15655.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>1409</SL_MOI>
+    <CHUOI_GIA> KT: 100%*1902-CQHC-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>T530</MA_COT>
+    <SLUONG_1>1459</SLUONG_1>
+    <SLUONG_2>1411</SLUONG_2>
+    <SLUONG_3>712</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>1409</SL_TONG>
+    <METER_TYPE>DT03PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0002</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:50:13-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222565</MA_KHANG>
+    <MA_DDO>PQ02000222565001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0003</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077494</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Duy Thực</TEN_KHANG>
+    <DIA_CHI>STh37.14 đường số 8 Lê Hồng Phong 2 P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818757959</MA_CTO>
+    <SERY_CTO>18757959</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>8611.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>1547</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>10249.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>1638</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>B530/1</MA_COT>
+    <SLUONG_1>1547</SLUONG_1>
+    <SLUONG_2>1230</SLUONG_2>
+    <SLUONG_3>2285</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>1638</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0003</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:55:23-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>2/2</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222563</MA_KHANG>
+    <MA_DDO>PQ02000222563001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0004</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077456</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Trần Doãn Thức</TEN_KHANG>
+    <DIA_CHI>STH37.17 Đường số 8, KĐT Lê Hồng Phong 2,  Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818757252</MA_CTO>
+    <SERY_CTO>18757252</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>2597.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>774</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>3494.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>897</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>B530/1-1</MA_COT>
+    <SLUONG_1>774</SLUONG_1>
+    <SLUONG_2>797</SLUONG_2>
+    <SLUONG_3>471</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>897</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0004</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:55:01-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/2</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223592</MA_KHANG>
+    <MA_DDO>PQ02000223592001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0005</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901660381</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Hồ Đức Hỷ</TEN_KHANG>
+    <DIA_CHI>STh37.19 đường số 8, Lê Hồng Phong 2,  P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D74201818846027</MA_CTO>
+    <SERY_CTO>18846027</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>1</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>47.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>46</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>B530/1-1</MA_COT>
+    <SLUONG_1>1</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>46</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0005</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:55:02-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222549</MA_KHANG>
+    <MA_DDO>PQ02000222549001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0006</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901075854</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Ngô Phước Toàn</TEN_KHANG>
+    <DIA_CHI>Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818753758</MA_CTO>
+    <SERY_CTO>18753758</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>2239.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>642</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>3034.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>795</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>B530/1-2</MA_COT>
+    <SLUONG_1>642</SLUONG_1>
+    <SLUONG_2>690</SLUONG_2>
+    <SLUONG_3>439</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>795</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0006</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T15:05:24-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/3</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222583</MA_KHANG>
+    <MA_DDO>PQ02000222583001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0007</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901218906</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Thị Thanh Phú</TEN_KHANG>
+    <DIA_CHI>Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D71201616554306</MA_CTO>
+    <SERY_CTO>16554306</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1159.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>322</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1491.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>332</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/1-1</MA_COT>
+    <SLUONG_1>322</SLUONG_1>
+    <SLUONG_2>297</SLUONG_2>
+    <SLUONG_3>226</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>332</SL_TONG>
+    <METER_TYPE>DT01P80RF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0007</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:58:30-07:00</NGAY_GIO>
+    <SECURITY>2</SECURITY>
+    <SECURITY_TEXT>LOW_BATTERY;</SECURITY_TEXT>
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222583</MA_KHANG>
+    <MA_DDO>PQ02000222583001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0007</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901218907</BOCSO_ID>
+    <LOAI_BCS>KN</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Thị Thanh Phú</TEN_KHANG>
+    <DIA_CHI>Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D71201616554306</MA_CTO>
+    <SERY_CTO>16554306</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>782.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>159</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1491.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>709</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/1-1</MA_COT>
+    <SLUONG_1>159</SLUONG_1>
+    <SLUONG_2>169</SLUONG_2>
+    <SLUONG_3>243</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>709</SL_TONG>
+    <METER_TYPE>DT01P80RF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0007</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:58:30-07:00</NGAY_GIO>
+    <SECURITY>2</SECURITY>
+    <SECURITY_TEXT>LOW_BATTERY;</SECURITY_TEXT>
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223077</MA_KHANG>
+    <MA_DDO>PQ02000223077001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0008</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901396949</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Trần Văn Bé</TEN_KHANG>
+    <DIA_CHI>STH39.27 đường 3B KĐT Lê Hồng Phong 2 P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D54201515914166</MA_CTO>
+    <SERY_CTO>15914166</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>81.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>43</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>146.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>65</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/1-1</MA_COT>
+    <SLUONG_1>43</SLUONG_1>
+    <SLUONG_2>38</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>65</SL_TONG>
+    <METER_TYPE>DT03PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0008</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:58:32-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222561</MA_KHANG>
+    <MA_DDO>PQ02000222561001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0009</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077480</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Thị Thảo</TEN_KHANG>
+    <DIA_CHI>STH39.29 đường 3B Lê Hồng Phong II P. Phước Hải, TP. nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818757405</MA_CTO>
+    <SERY_CTO>18757405</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1011.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>234</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1282.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>271</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/1-2</MA_COT>
+    <SLUONG_1>234</SLUONG_1>
+    <SLUONG_2>261</SLUONG_2>
+    <SLUONG_3>225</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>271</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0009</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:58:33-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>2/2</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222551</MA_KHANG>
+    <MA_DDO>PQ02000222551001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0010</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901075873</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Hồ Phụng Hoàng</TEN_KHANG>
+    <DIA_CHI>Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818753759</MA_CTO>
+    <SERY_CTO>18753759</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>2756.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>796</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>3726.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>970</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/2</MA_COT>
+    <SLUONG_1>796</SLUONG_1>
+    <SLUONG_2>787</SLUONG_2>
+    <SLUONG_3>549</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>970</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0010</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:56:45-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223228</MA_KHANG>
+    <MA_DDO>PQ02000223228001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0011</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901468896</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Văn An</TEN_KHANG>
+    <DIA_CHI>STH39.12 đường số 8 Lê Hồng Phong 2 P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201616706556</MA_CTO>
+    <SERY_CTO>16706556</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>51.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>50</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>130.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>79</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/2</MA_COT>
+    <SLUONG_1>50</SLUONG_1>
+    <SLUONG_2>1</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>79</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0011</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:56:47-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223470</MA_KHANG>
+    <MA_DDO>PQ02000223470001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0012</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901647173</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Xuân Thiệp</TEN_KHANG>
+    <DIA_CHI>STH39.06 đường số 8 Lê Hồng Phong 2, P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D74201818839467</MA_CTO>
+    <SERY_CTO>18839467</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>1</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>146.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>145</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>A530/3</MA_COT>
+    <SLUONG_1>1</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>145</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0012</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:49:30-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222662</MA_KHANG>
+    <MA_DDO>PQ02000222662001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0013</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901213563</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Trương Thị Thanh Hòa</TEN_KHANG>
+    <DIA_CHI>STH35B.32 Đường số 1A, KĐT Lê Hồng Phong 2, Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D54201616921024</MA_CTO>
+    <SERY_CTO>16921024</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>392.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>188</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>549.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>157</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/1-1</MA_COT>
+    <SLUONG_1>188</SLUONG_1>
+    <SLUONG_2>121</SLUONG_2>
+    <SLUONG_3>83</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>157</SL_TONG>
+    <METER_TYPE>DT03PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0013</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:53:39-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/2</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222567</MA_KHANG>
+    <MA_DDO>PQ02000222567001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0014</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077529</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Trần Văn Quý</TEN_KHANG>
+    <DIA_CHI>STH35B.25 Đường 1A, KĐT Lê Hồng Phong 2,  Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818757521</MA_CTO>
+    <SERY_CTO>18757521</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1331.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>300</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1836.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>505</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/1-2</MA_COT>
+    <SLUONG_1>300</SLUONG_1>
+    <SLUONG_2>330</SLUONG_2>
+    <SLUONG_3>317</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>505</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0014</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:52:56-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222568</MA_KHANG>
+    <MA_DDO>PQ02000222568001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0015</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077537</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Phan Thị Bính</TEN_KHANG>
+    <DIA_CHI>STH35B.23 Đường số 1A, KĐT Lê Hồng Phong 2,  Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818723317</MA_CTO>
+    <SERY_CTO>18723317</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>1837.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>501</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>2336.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>499</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/1-2</MA_COT>
+    <SLUONG_1>501</SLUONG_1>
+    <SLUONG_2>562</SLUONG_2>
+    <SLUONG_3>376</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>499</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0015</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:52:56-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222548</MA_KHANG>
+    <MA_DDO>PQ02000222548001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0016</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901077260</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Văn Liệt</TEN_KHANG>
+    <DIA_CHI>P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818751827</MA_CTO>
+    <SERY_CTO>18751827</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>861.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>206</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1091.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>230</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/3</MA_COT>
+    <SLUONG_1>206</SLUONG_1>
+    <SLUONG_2>213</SLUONG_2>
+    <SLUONG_3>184</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>230</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0016</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:51:00-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000222622</MA_KHANG>
+    <MA_DDO>PQ02000222622001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0017</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901149267</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Ngọc Thái</TEN_KHANG>
+    <DIA_CHI>P. Phước Hải, TP. Nha Trang, T. Khánh Hòa</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D62201818749332</MA_CTO>
+    <SERY_CTO>18749332</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>21.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>20</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>130.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>109</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/3</MA_COT>
+    <SLUONG_1>20</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>109</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0017</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:51:01-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223105</MA_KHANG>
+    <MA_DDO>PQ02000223105001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0018</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901426793</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Lữ Thơ Hiệp</TEN_KHANG>
+    <DIA_CHI>Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D43201313137914</MA_CTO>
+    <SERY_CTO>13137914</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>193.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>90</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>269.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>76</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/3</MA_COT>
+    <SLUONG_1>90</SLUONG_1>
+    <SLUONG_2>103</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>76</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0018</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:51:02-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/1</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223434</MA_KHANG>
+    <MA_DDO>PQ02000223434001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0019</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901620223</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Nguyễn Thanh Tuấn</TEN_KHANG>
+    <DIA_CHI>Lô STH35B.10 KĐT mới Lê Hồng Phong II Phường Phước Hải</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D74201818844107</MA_CTO>
+    <SERY_CTO>18844107</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>167.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>167</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>459.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>292</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>C530/2</MA_COT>
+    <SLUONG_1>167</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>292</SL_TONG>
+    <METER_TYPE>DT01PRF</METER_TYPE>
+    <DOCRF>1</DOCRF>
+    <SLBT>1</SLBT>
+    <MA_GC_MOI>0019</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T15:02:25-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST>1/3</HIST>
+  </Table1>
+  <Table1>
+    <MA_NVGCS>A</MA_NVGCS>
+    <MA_KHANG>PQ02000223451</MA_KHANG>
+    <MA_DDO>PQ02000223451001</MA_DDO>
+    <MA_DVIQLY>PQ0200</MA_DVIQLY>
+    <MA_GC>0020</MA_GC>
+    <MA_QUYEN>A530</MA_QUYEN>
+    <MA_TRAM>BD530530</MA_TRAM>
+    <BOCSO_ID>9901622423</BOCSO_ID>
+    <LOAI_BCS>KT</LOAI_BCS>
+    <LOAI_CS>DDK</LOAI_CS>
+    <TEN_KHANG>Trần Đình Dục</TEN_KHANG>
+    <DIA_CHI>STH35A-23 Đường số 9, Lê Hồng Phong 2,  Phường Phước Hải, Nha Trang, KH</DIA_CHI>
+    <MA_NN />
+    <SO_HO>1</SO_HO>
+    <MA_CTO>D54201414904485</MA_CTO>
+    <SERY_CTO>14904485</SERY_CTO>
+    <HSN>1.00</HSN>
+    <CS_CU>0.000</CS_CU>
+    <TTR_CU />
+    <SL_CU>0</SL_CU>
+    <SL_TTIEP>0</SL_TTIEP>
+    <NGAY_CU>2019-06-07T00:00:00-07:00</NGAY_CU>
+    <CS_MOI>1.000</CS_MOI>
+    <TTR_MOI />
+    <SL_MOI>1</SL_MOI>
+    <CHUOI_GIA>KT: 100%*SHBT-A</CHUOI_GIA>
+    <KY>1</KY>
+    <THANG>7</THANG>
+    <NAM>2019</NAM>
+    <NGAY_MOI>2019-07-06T00:00:00-07:00</NGAY_MOI>
+    <NGUOI_GCS>A - Khong xac dinh</NGUOI_GCS>
+    <SL_THAO>0</SL_THAO>
+    <KIMUA_CSPK>0</KIMUA_CSPK>
+    <MA_COT>D530/3</MA_COT>
+    <SLUONG_1>0</SLUONG_1>
+    <SLUONG_2>0</SLUONG_2>
+    <SLUONG_3>0</SLUONG_3>
+    <SO_HOM />
+    <PMAX>0</PMAX>
+    <NGAY_PMAX>1900-01-01T00:00:00-08:00</NGAY_PMAX>
+    <X />
+    <Y />
+    <Z />
+    <SL_TONG>1</SL_TONG>
+    <METER_TYPE>DT03PRF</METER_TYPE>
+    <DOCRF>2</DOCRF>
+    <SLBT>0</SLBT>
+    <MA_GC_MOI>0020</MA_GC_MOI>
+    <NGAY_GIO>2018-10-22T14:52:20-07:00</NGAY_GIO>
+    <SECURITY>0</SECURITY>
+    <SECURITY_TEXT />
+    <TAMPER>0</TAMPER>
+    <TAMPER_TEXT />
+    <HIST />
+  </Table1>
+</NewDataSet>

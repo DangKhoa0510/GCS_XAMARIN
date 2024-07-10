@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Cài Đặt"            
+             BackgroundColor="White"
+             x:Class="GCS_CPC_EMEC.Views.Setting">
+    <ContentPage.Content>
+        <TableView Intent="Settings" HasUnevenRows="True" >
+            <TableRoot>
+                <TableSection Title="Cài đặt URL Service" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Editor x:Name="txtService" Placeholder="Nhập Url Service" Text="http://smart.cpc.vn/GCS" HorizontalOptions="FillAndExpand"></Editor>
+                            <Button x:Name="btnSaveService" Text="Save" TextColor="White" Padding="10" CornerRadius="60" BackgroundColor="#007261" HorizontalOptions="EndAndExpand"
+                             Clicked="btnSaveService_Clicked"></Button>
+                            
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Cài đặt mã đơn vị quản lý" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Editor x:Name="txtMaDonVi" Placeholder="Nhập Mã đơn vị quản lý" HorizontalOptions="FillAndExpand"  ></Editor>
+                            <Button x:Name="btnSaveDonVi" Text="Save" TextColor="White" Padding="10" CornerRadius="60" BackgroundColor="#007261" HorizontalOptions="EndAndExpand"
+                             Clicked="btnSaveDonVi_Clicked"></Button>
+
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="Cài đặt kỳ ghi chỉ số" >
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Editor x:Name="txtky" Grid.Column="0" Placeholder="Kỳ" HorizontalOptions="FillAndExpand"  ></Editor>
+                            <Editor x:Name="txtthang" Grid.Column="1" Placeholder="Tháng" HorizontalOptions="FillAndExpand"  ></Editor>
+                            <Editor x:Name="txtnam" Grid.Column="2" Placeholder="Năm" HorizontalOptions="FillAndExpand"  ></Editor>
+                            <Button x:Name="btnSaveKyDuLieu" Grid.Column="3" Text="Save"  TextColor="White" Padding="10" CornerRadius="60" BackgroundColor="#007261" HorizontalOptions="EndAndExpand"
+                             Clicked="btnSaveKyDuLieu_Clicked"></Button>
+
+                        </Grid>
+                    </ViewCell>
+                </TableSection>
+
+                <!--<TableSection Title="Lấy thông tin điểm đo theo đơn vị quản lý" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Lấy danh mục điểm đo" x:Name="btnlayDiemDo" 
+                        CornerRadius="15" BackgroundColor="SkyBlue" 
+                        TextColor="White"
+                        Clicked="btnlayDiemDo_Clicked"
+                        HorizontalOptions="FillAndExpand"></Button>
+
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>-->
+                <!--<TableSection Title="Lấy danh mục trạm theo đơn vị" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Lấy danh mục trạm" x:Name="btnlayTram" 
+                        CornerRadius="15" BackgroundColor="SkyBlue" 
+                        TextColor="White"
+                        Clicked="btnlayTram_Clicked"
+                        HorizontalOptions="FillAndExpand"></Button>
+
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>-->
+                <TableSection Title="Cài đặt phương thức lấy số liệu" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label  Text="Nguồn Lấy Dữ  Liệu " TextColor="Blue" FontSize="18" VerticalTextAlignment="Center" ></Label>
+                            <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="chkOn" Tapped="chkOn_Tapped" NumberOfTapsRequired="1">
+
+                                    </TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+                                <Image x:Name="imgOn" Source="icon_check_32.png" Aspect="AspectFit" ></Image>
+                                <Label Text="Online" FontSize="14" FontAttributes="Bold"  TextColor="Blue" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="chkOff" Tapped="chkOff_Tapped" NumberOfTapsRequired="1">
+
+                                    </TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+                                <Image x:Name="imgOff" Source="icon_uncheck_32.png" Aspect="AspectFill"></Image>
+                                <Label Text="OFfline" FontSize="14" FontAttributes="Bold" TextColor="Blue" VerticalOptions="Center"></Label>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Cài đặt ngưỡng giá trị " >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="txtCanDuoi" Placeholder="Nhập hệ số cận dưới" HorizontalOptions="StartAndExpand" TextChanged="txtCanDuoi_Completed" Keyboard="Numeric"></Entry>
+                            <Entry x:Name="txtCanTren" Placeholder="Nhập hệ số cận trên" HorizontalOptions="StartAndExpand" TextChanged="txtCanTren_Completed" Keyboard="Numeric"></Entry>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="Cài đặt thiết bị bluetooth" >
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Picker x:Name="txtBluetooth" Focused="txtBluetooth_Focused"  HorizontalOptions="StartAndExpand" Title="Vui lòng chọn thiết bị bluetooth" />
+                            <Button x:Name="btnSaveBluetooth" Clicked="btnSaveBluetooth_Clicked" Text="Save" TextColor="White" Padding="10" CornerRadius="60" BackgroundColor="#007261" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+           
+        </TableView>     
+        
+    </ContentPage.Content>
+</ContentPage>

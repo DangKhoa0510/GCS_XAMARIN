@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="Transparent"
+             CloseWhenBackgroundIsClicked="False"
+             x:Class="GCS_CPC_EMEC.Dialog.DialogDocRF_Bat_Thuong">
+    <Frame CornerRadius="15"
+           OutlineColor="Black"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="End">
+        <StackLayout HorizontalOptions="FillAndExpand">
+            <Grid HeightRequest="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="8*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Source="warning.jpg" Grid.Column="0" Aspect="AspectFit" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Label x:Name="lblThongBao" Grid.Column="1" Text="Vui Lòng đợi" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" HorizontalTextAlignment="Start"/>
+            </Grid>
+
+            <BoxView HeightRequest="1" BackgroundColor="Gray"></BoxView>
+            <StackLayout Spacing="0" VerticalOptions="FillAndExpand" Padding="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="9*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="1">
+                        <Label x:Name="lblSL" TextColor="Black" FontSize="20" Text="Loading...." Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Start"/>                        
+                        <BoxView HeightRequest="1" BackgroundColor="Gray"></BoxView>
+                        <Label x:Name="lblChiSoMoi" TextColor="Black" FontSize="20"  Text="Loading...." Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Start"/>
+                       
+                    </StackLayout>
+                    
+                </Grid>
+                
+            </StackLayout>
+
+            <StackLayout Spacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Orientation="Horizontal">
+                <Button x:Name="btnStop" 
+                        Text="Dừng Đọc"  ImageSource="stop.png" 
+                        Clicked="btnStop_Clicked"  
+                        HorizontalOptions="FillAndExpand" 
+                        BackgroundColor="#E10555" 
+                        TextColor="White" 
+                        CornerRadius="50"
+                        WidthRequest="100"></Button>
+                <Button x:Name="btnOK" Text="LƯU" Clicked="btnOK_Clicked" 
+                        HorizontalOptions="FillAndExpand" 
+                        ImageSource="ic_update.png"
+                        BackgroundColor="#007261" TextColor="White" 
+                        CornerRadius="50"
+                        WidthRequest="100"
+                        ></Button>
+                <Button x:Name="btnCancel" Text="Thoát" ImageSource="ic_delete.png" 
+                        Clicked="btnCancel_Clicked" HorizontalOptions="FillAndExpand" 
+                        BackgroundColor="DarkGray" TextColor="White" 
+                        CornerRadius="50"
+                        WidthRequest="100"></Button>
+            </StackLayout>
+        </StackLayout>
+
+    </Frame>
+</pages:PopupPage>

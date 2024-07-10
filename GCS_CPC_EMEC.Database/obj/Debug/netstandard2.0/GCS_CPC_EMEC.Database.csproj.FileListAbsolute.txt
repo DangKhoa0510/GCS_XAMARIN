@@ -1,0 +1,8 @@
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\bin\Debug\netstandard2.0\GCS_CPC_EMEC.Database.deps.json
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\bin\Debug\netstandard2.0\GCS_CPC_EMEC.Database.dll
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\obj\Debug\netstandard2.0\GCS_CPC_EMEC.Database.AssemblyInfoInputs.cache
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\obj\Debug\netstandard2.0\GCS_CPC_EMEC.Database.AssemblyInfo.cs
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\bin\Debug\netstandard2.0\GCS_CPC_EMEC.Database.pdb
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\obj\Debug\netstandard2.0\GCS_CPC_EMEC.Database.csprojAssemblyReference.cache
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\obj\Debug\netstandard2.0\GCS_CPC_EMEC.Database.dll
+E:\TUAN_SOURCE\GCS_CPC_EMEC\GCS_CPC_EMEC.Database\obj\Debug\netstandard2.0\GCS_CPC_EMEC.Database.pdb

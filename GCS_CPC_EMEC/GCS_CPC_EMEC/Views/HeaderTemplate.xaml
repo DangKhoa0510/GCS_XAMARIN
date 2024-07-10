@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             HeightRequest="170"
+             x:Class="GCS_CPC_EMEC.Views.HeaderTemplate">
+  <ContentView.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Image Aspect="AspectFill"
+                   Source="gradient.jpg"
+                   Grid.ColumnSpan="5"
+                   Grid.RowSpan="4"    
+                   
+                   />
+            <Image Source="logo.png"                    
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   Grid.Column="1"
+                   Grid.Row="1"      
+                   Opacity="0.6"
+                   />
+        </Grid>
+  </ContentView.Content>
+</ContentView>
